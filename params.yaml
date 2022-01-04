@@ -1,0 +1,4 @@
+mnist_train:
+        split: 0.222
+        seed: 20170428
+

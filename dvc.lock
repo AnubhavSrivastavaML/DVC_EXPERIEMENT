@@ -1,0 +1,11 @@
+schema: '2.0'
+stages:
+  mnist_train:
+    cmd: python3 model.py
+    params:
+      params.yaml:
+        mnist_train.split: 0.222
+    outs:
+    - path: mnist_model.h5
+      md5: ba8843829014c2bad11a98589667b252
+      size: 1248504

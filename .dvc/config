@@ -1,0 +1,5 @@
+[core]
+    remote = ssh_gabbar
+['remote "ssh_gabbar"']
+    url = ssh://awi-anubhav@192.168.0.171/nfs/home/awi-anubhav/dvc_models
+    password = anubhav555

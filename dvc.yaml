@@ -1,0 +1,7 @@
+stages:
+  mnist_train:
+    cmd: python3 model.py
+    outs:
+    - mnist_model.h5
+    params:
+    - mnist_train.split
