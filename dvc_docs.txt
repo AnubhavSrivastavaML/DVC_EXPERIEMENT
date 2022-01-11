@@ -1,0 +1,26 @@
+---------------------   GETTING STARTED WITH DVC ----------------------------
+
+DVC is basically like git but for data/models and maintaining large files
+That are not tracked by git.
+
+
+BASIC COMMANDS   
+
+1. Intializing a repo
+	dvc cmd : dvc init
+	git cmd : git init
+	
+
+2. Adding Files for tracks:
+
+	dvc cmd : dvc add [<files>]
+	git cmd : git add [<files>]
+
+3. Adding remote url/ssh/google_drive/local_dir
+
+	
+	dvc_cmd [list all sources for dvc] : dvc remote list 
+	
+     
+     
+
